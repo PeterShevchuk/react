@@ -1,0 +1,35 @@
+.task4 {
+  margin: 10px;
+  border: 1px solid red;
+  padding: 30px;
+}
+.transaction-history {
+  border: 1px solid #e0e5e8;
+  color: #5f6468;
+  width: 100%;
+  border-spacing: 0;
+  text-align: center;
+  border-radius: 7px;
+  -webkit-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.32);
+  box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.32);
+}
+.transaction-history thead {
+  background-color: #00bcd5;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.transaction-history tbody tr:nth-child(odd) {
+  background-color: #ecf1f4;
+}
+.transaction-history td,
+.transaction-history th {
+  padding: 20px 0;
+}
+.transaction-history td:first-child:first-letter {
+  text-transform: uppercase;
+}
+.transaction-history td:not(:last-child),
+.transaction-history th:not(:last-child) {
+  border-right: 1px solid #e0e5e8;
+}

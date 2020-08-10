@@ -1,0 +1,43 @@
+.task2 {
+  margin: 10px;
+  border: 1px solid red;
+  padding: 30px;
+}
+.statistics {
+  display: inline-block;
+  min-width: 300px;
+  text-align: center;
+  background-color: #ffffff;
+  padding-top: 20px;
+  -webkit-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.32);
+  box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.32);
+}
+.statistics .title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.stat-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stat-list .item {
+  list-style: none;
+  padding: 10px 0;
+  min-width: 60px;
+}
+.stat-list .item:nth-child(1) {
+  background-color: #51c3f7;
+}
+.stat-list .item:nth-child(2) {
+  background-color: #a13ef3;
+}
+.stat-list .item:nth-child(3) {
+  background-color: #e94a66;
+}
+.stat-list .item:nth-child(4) {
+  background-color: #21b8c1;
+}
+.stat-list .item:nth-child(5) {
+  background-color: green;
+}
