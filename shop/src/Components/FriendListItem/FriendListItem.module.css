@@ -1,9 +1,4 @@
-.task3 {
-  margin: 10px;
-  border: 1px solid red;
-  padding: 30px;
-}
-.task3 .item {
+.item {
   list-style: none;
   display: flex;
   align-items: center;
@@ -15,10 +10,10 @@
   -moz-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.32);
   box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.32);
 }
-.task3 .item > *:not(:last-child) {
+.item > *:not(:last-child) {
   margin-right: 10px;
 }
-.task3 .avatar {
+.avatar {
   border-radius: 5px;
 }
 .status {
@@ -26,9 +21,9 @@
   height: 20px;
   border-radius: 50%;
 }
-.status.on {
+.on {
   background-color: green;
 }
-.status.off {
+.off {
   background-color: red;
 }
